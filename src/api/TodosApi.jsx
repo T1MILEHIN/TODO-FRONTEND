@@ -1,8 +1,5 @@
 import axios from "axios";
 
-// const TodosApi = axios.create({
-//     baseURL: "http://127.0.0.1:8000"
-// })
 
 export const FetchAllTodos = async () => {
     const response = await axios.get("https://todo-fsuw.onrender.com/api/")
